@@ -1,0 +1,12 @@
+[package]
+name = "img2xbin"
+version = "0.1.0"
+edition = "2021"
+authors = ["Andy Herbert <andy.herbert@gmail.com>"]
+description = "Converts Images to XBin files"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+image = "0.24"
+imagequant = "4.2"
+oklab = "1.0"
